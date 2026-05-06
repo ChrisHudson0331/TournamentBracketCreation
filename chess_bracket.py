@@ -1,6 +1,5 @@
 import numpy as np
 import time
-import csv
 
 # This function executes the h2h_details() function. Since h2h_details() occassionally throws an Exception when it encounters an infinite loop, this 
 # function is needed to catch those Exceptions and tell h2h_details() to try it's procedure again.
